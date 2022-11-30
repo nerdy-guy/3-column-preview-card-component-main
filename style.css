@@ -12,7 +12,6 @@
   --font-weight-primary: 400;
   --font-family-secondary: "Lexend Deca";
   --font-weight-secondary: 700;
-  --font-size: 15px;
 }
 
 /* Reset */
@@ -65,6 +64,8 @@ a {
   margin-left: 3em;
   max-width: 10em;
   text-align: center;
+  font-family: var(--font-family-secondary);
+  font-weight: var(--font-weight-secondary);
 }
 
 /* First Column */
@@ -95,14 +96,14 @@ a {
 }
 
 .col-1 p {
-  font-family: var(--font-family-secondary);
-  font-weight: var(--font-family-secondary);
+  font-family: var(--font-family-primary);
+  font-weight: var(--font-family-primary);
   font-size: 1rem;
   color: var(--color-neutral-transparent-white);
   margin-left: 3em;
   padding-right: 5em;
   margin-bottom: 5em;
-  max-width: 18em;
+  max-width: 20em;
 }
 
 .col-1 a {
@@ -111,9 +112,9 @@ a {
 }
 
 .col-1 a:hover {
-  background-color: var(--color-primary-orange);
+  background-color: transparent;
   color: var(--color-neutral-light-gray);
-  border: 3px solid var(--color-neutral-light-gray);
+  outline: 3px solid var(--color-neutral-light-gray);
 }
 
 /* Second Column */
@@ -142,8 +143,8 @@ a {
 }
 
 .col-2 p {
-  font-family: var(--font-family-secondary);
-  font-weight: var(--font-family-secondary);
+  font-family: var(--font-family-primary);
+  font-weight: var(--font-family-primary);
   font-size: 1rem;
   color: var(--color-neutral-transparent-white);
   margin-left: 3em;
@@ -158,9 +159,9 @@ a {
 }
 
 .col-2 a:hover {
-  background-color: var(--color-primary-cyan);
+  background-color: transparent;
   color: var(--color-neutral-light-gray);
-  border: 3px solid var(--color-neutral-light-gray);
+  outline: 3px solid var(--color-neutral-light-gray);
 }
 
 /* Third Column */
@@ -191,8 +192,8 @@ a {
 }
 
 .col-3 p {
-  font-family: var(--font-family-secondary);
-  font-weight: var(--font-family-secondary);
+  font-family: var(--font-family-primary);
+  font-weight: var(--font-family-primary);
   font-size: 1rem;
   color: var(--color-neutral-transparent-white);
   margin-left: 3em;
@@ -207,9 +208,9 @@ a {
 }
 
 .col-3 a:hover {
-  background-color: var(--color-primary-dark-cyan);
+  background-color: transparent;
   color: var(--color-neutral-light-gray);
-  border: 3px solid var(--color-neutral-light-gray);
+  outline: 3px solid var(--color-neutral-light-gray);
 }
 
 @media only screen and (max-width: 768px) {
