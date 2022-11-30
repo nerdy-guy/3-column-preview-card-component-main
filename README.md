@@ -45,8 +45,6 @@ Users should be able to:
 
 ## Project structure
 
-QR-code-component
-
 ```
 3-column-preview-card-component-main
 ├── images
